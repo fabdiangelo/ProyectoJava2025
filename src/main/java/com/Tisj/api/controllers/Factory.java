@@ -7,23 +7,23 @@ import com.Tisj.bussines.entities.*;
 
 public class Factory {
 
-    public ISystem crearSystem() {
+    public ISystem CrearSystem() {
         return System.getInstance();
     }
 
-    public Cliente crearCliente() {
+    public Cliente CrearCliente() {
         return new Cliente();
     }
 
-    public ContentCreator crearContentCreator() {
+    public ContentCreator CrearContentCreator() {
         return new ContentCreator();
     }
 
-    public Admin crearAdmin() {
+    public Admin CrearAdmin() {
         return new Admin();
     }
 
-    public Carrito crearCarrito() {
+    public Carrito CrearCarrito() {
         return new Carrito();
     }
 
